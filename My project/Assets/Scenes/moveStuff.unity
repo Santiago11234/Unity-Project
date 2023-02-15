@@ -577,8 +577,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d65643157d8a0284c8f3d196981b9cb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4
-  groundDrag: 3.5
+  moveSpeed: 6
+  groundDrag: 5.25
   jumpForce: 12
   jumpCooldown: 0.25
   airMultiplier: 0.4
@@ -634,7 +634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6578b5d4dda8b54690934108c80edae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jump1: {x: 0, y: 3.5, z: 0}
+  jump1: {x: 0, y: 4.25, z: 0}
   jumpForce: 2
   isGrounded: 1
 --- !u!1 &1148019891
