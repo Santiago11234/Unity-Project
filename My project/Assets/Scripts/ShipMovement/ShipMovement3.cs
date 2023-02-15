@@ -3,11 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-
-
-
-
-public class ShipMovement : MonoBehaviour
+public class ShipMovement3 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -20,15 +16,10 @@ public class ShipMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.z > 45)
+        if (transform.position.x < -100)
         {
-            transform.Translate(0, 0, -70);
+            transform.Translate(0, 0, -91.7f - 100);
         }
-        transform.Translate(0, 0, 0.05f);
+        transform.Translate(0, 0, 0.7f);
     }
 }
-
-
-
-
-
