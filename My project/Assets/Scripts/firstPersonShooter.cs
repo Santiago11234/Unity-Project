@@ -23,15 +23,15 @@ public class firstPersonShooter : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        yRot += Input.getAxis("mouse X") * lookSensitivity;
-        xRot += Input.getAxis("mouse Y") * lookSensitivity;
+        // yRot += Input.getAxis("mouse X") * lookSensitivity;
+        // xRot += Input.getAxis("mouse Y") * lookSensitivity;
 
-        currentX = Mathf.SmoothDamp(currentX, xRot, ref xRotationV, lookSmoothDamp);
-        currentY = Mathf.SmoothDamp(currentY, yRot, ref yRotationV, lookSmoothDamp);
+        // currentX = Mathf.SmoothDamp(currentX, xRot, ref xRotationV, lookSmoothDamp);
+        // currentY = Mathf.SmoothDamp(currentY, yRot, ref yRotationV, lookSmoothDamp);
 
-        xRot = Mathf.Clamp(xRot, -80, 80);
+        // xRot = Mathf.Clamp(xRot, -80, 80);
 
-        transform.rotation = Quaternion.Euler(-currentX, currentY, 0);
+        // transform.rotation = Quaternion.Euler(-currentX, currentY, 0);
 
         
     }
