@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a0215ae2-f34a-4906-a548-9cbfc9fc35f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scenes/New Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scenes/New Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scenes/Shooting.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scenes/Shooting.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scripts/firstPersonShooter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scripts/firstPersonShooter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/Assets/Scenes 2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/Assets/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/Assets/Scenes/SampleScene 2.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/Assets/Scenes/SampleScene.unity 2.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/Packages/manifest 2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/Packages/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/Packages/packages-lock 2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/Packages/packages-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/.boot 2.config.icloud" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/AudioManager 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/ClusterInputManager 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/DynamicsManager 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/EditorBuildSettings 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/EditorSettings 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/GraphicsSettings 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/InputManager 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/MemorySettings 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/MemorySettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/NavMeshAreas 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/PackageManagerSettings 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings 2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/Physics2DSettings 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/PresetManager 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/ProjectSettings 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/ProjectVersion 2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/QualitySettings 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/TagManager 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/TimeManager 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/TimeManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/UnityConnectSettings 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/VFXManager 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/VersionControlSettings 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/VersionControlSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/XRSettings 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/XRSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/ProjectSettings/boot.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/UserSettings/EditorUserSettings 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/UserSettings/Layouts/default-2021 2.dwlt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/My project/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/UserSettings/Layouts/default-2021 2.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/My project/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/My project/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Ln2jnHKMNYKmSsQ8VyhH6Dqjky" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0215ae2-f34a-4906-a548-9cbfc9fc35f1" name="Changes" comment="" />
+      <created>1676492664834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676492664834</updated>
+    </task>
+    <servers />
+  </component>
+</project>
