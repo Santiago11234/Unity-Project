@@ -5,14 +5,14 @@ using System.Collections;
 public class jump : MonoBehaviour
 {
     public Vector3 jump1;
-    public float jumpForce = 4.25f;
+    public float jumpForce = 3f;
 
     public bool isGrounded;
     Rigidbody rb;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        jump1 = new Vector3(0.0f, 4.25f, 0.0f);
+        jump1 = new Vector3(0.0f, 3f, 0.0f);
     }
 
     void OnCollisionStay()
