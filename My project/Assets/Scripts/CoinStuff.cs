@@ -15,7 +15,7 @@ public class CoinStuff : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    Debug.Log(amtOfCoins);
+  
     }
 
     void OnCollisionEnter(Collision other) {
