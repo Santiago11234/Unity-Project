@@ -25,20 +25,18 @@ public class Axe : MonoBehaviour
     {
         if (other.CompareTag("Player") && !isKnockingBack)
         {
-            // Calculate knockback direction away from the axe
+            Debug.Log("u just got hit L bozo");
+
             knockbackDirection = other.transform.position - transform.position;
             knockbackDirection.Normalize();
 
-            // Apply knockback force to the player
             Rigidbody playerRb = other.GetComponent<Rigidbody>();
             PlayerMovement playerMovement = other.GetComponent<PlayerMovement>();
             if (playerRb != null && playerMovement != null)
             {
-                
-                
-                playerRb.AddForce(knockbackDirection * knockbackForce, ForceMode.Impulse);
 
-                // Start knockback coroutine
+                playerRb.AddForce(knockbackDirection * knockbackForce * 20, ForceMode.Impulse);
+
                 StartCoroutine(KnockbackCoroutine(playerMovement));
             }
         }
@@ -47,10 +45,7 @@ public class Axe : MonoBehaviour
     IEnumerator KnockbackCoroutine(PlayerMovement playerMovement)
     {
         isKnockingBack = true;
-
-        // Wait for knockback duration
         yield return new WaitForSeconds(knockbackDuration);
-
         isKnockingBack = false;
     }   
 }

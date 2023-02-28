@@ -25,6 +25,10 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask whatIsGround;
     bool grounded;
 
+    [Header("Portal")]
+    public int n;
+    public Vector3[] arr = new Vector3[2]; 
+  
 
     public Transform orientation;
 
@@ -39,6 +43,9 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+        arr[0] = new Vector3(0,0,0);
+        arr[1] = new Vector3(100,100,100);
+        n =0;
     }
 
     private void MyInput()
@@ -113,6 +120,17 @@ public class PlayerMovement : MonoBehaviour
     private void ResetJump()
     {
         readyToJump = true;
+    }
+
+
+     void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Portal"))
+        {
+            Debug.Log("u just got hit L bozo");
+            n++;
+            transform.position += arr[n];
+        }
     }
 
 }
