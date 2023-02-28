@@ -32,13 +32,11 @@ public class Axe : MonoBehaviour
 
             Rigidbody playerRb = other.GetComponent<Rigidbody>();
             PlayerMovement playerMovement = other.GetComponent<PlayerMovement>();
-            if (playerRb != null && playerMovement != null)
-            {
+    
+            playerRb.AddForce(knockbackDirection * knockbackForce /30, ForceMode.Impulse);
 
-                playerRb.AddForce(knockbackDirection * knockbackForce * 20, ForceMode.Impulse);
-
-                StartCoroutine(KnockbackCoroutine(playerMovement));
-            }
+            StartCoroutine(KnockbackCoroutine(playerMovement));
+            
         }
     }
 
