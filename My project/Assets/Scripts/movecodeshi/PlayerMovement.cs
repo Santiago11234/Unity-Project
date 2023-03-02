@@ -44,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         arr[0] = new Vector3(0,0,0);
-        arr[1] = new Vector3(100,100,100);
+        arr[1] = new Vector3(10,10,10);
         n =0;
     }
 
