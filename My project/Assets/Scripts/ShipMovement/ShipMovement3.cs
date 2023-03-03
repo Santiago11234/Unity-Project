@@ -18,8 +18,8 @@ public class ShipMovement3 : MonoBehaviour
     {
         if (transform.position.x < -100)
         {
-            transform.Translate(0, 0, -91.7f - 100);
+            transform.Translate(0, 0, -120.7f - 100);
         }
-        transform.Translate(0, 0, 0.7f);
+        transform.Translate(0, 0, 0.5f);
     }
 }
