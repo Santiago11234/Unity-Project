@@ -7,6 +7,7 @@ TagManager:
   - coin
   - Axe
   - Portal
+  - shark
   layers:
   - Default
   - TransparentFX
