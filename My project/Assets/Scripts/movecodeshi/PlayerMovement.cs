@@ -131,6 +131,12 @@ public class PlayerMovement : MonoBehaviour
             n++;
             transform.position += arr[n];
         }
+
+        if (other.CompareTag("shark"))
+        {
+            
+            Debug.Log("You Died");
+        }
     }
 
 }

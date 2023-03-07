@@ -8,28 +8,34 @@ public class dialogue : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textspeed;
+    private bool inTrigger = false;
+    GameObject DialogueBox;
 
     private int index;
     // Start is called before the first frame update
     void Start()
     {
-       /* textComponent.text = string.Empty;
-        StartDialogue(); */
+        /* textComponent.text = string.Empty;
+         StartDialogue(); */
+        DialogueBox = GameObject.Find("DialogueBox"); DialogueBox.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (inTrigger == true)
         {
-            if (textComponent.text == lines[index])
+            if (Input.GetMouseButtonDown(0))
             {
-                NextLine();
-            }
-            else
-            {
-                StopAllCoroutines();
-                textComponent.text = lines[index];
+                if (textComponent.text == lines[index])
+                {
+                    NextLine();
+                }
+                else
+                {
+                    StopAllCoroutines();
+                    textComponent.text = lines[index];
+                }
             }
         }
     }
@@ -60,10 +66,17 @@ public class dialogue : MonoBehaviour
         else
         {
             gameObject.SetActive(false);
+            DialogueBox.SetActive(false);
+            inTrigger = false;
         }
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(GameObject.)
-    }
+         if (other.gameObject.tag == "MainCamera")
+        {
+            Debug.Log("your mom");
+            inTrigger = true;
+            DialogueBox.SetActive(true);
+        }
+    } 
 }

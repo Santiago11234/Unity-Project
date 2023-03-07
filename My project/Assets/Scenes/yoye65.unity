@@ -238,7 +238,7 @@ GameObject:
   - component: {fileID: 351320730}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -699,7 +699,7 @@ GameObject:
   - component: {fileID: 1177475293}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: DialogueTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -791,9 +791,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1177475288}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d07935b28f361d49978a35a690680ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 1267060d33f7b6a4aa65912f51cf4cfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textComponent: {fileID: 1593760986}
+  lines:
+  - haha hi monkey d luffy
+  - u suck
+  - sorry
+  - xd :p
+  textspeed: 0.15
 --- !u!1 &1353444458
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,11 +984,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'popo dauruts
-
-    dcoool dowmeoas
-
-    feimfw'
+  m_text: hehe i am monkey d luffy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
@@ -1069,7 +1072,6 @@ GameObject:
   - component: {fileID: 1813245303}
   - component: {fileID: 1813245305}
   - component: {fileID: 1813245304}
-  - component: {fileID: 1813245306}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -1136,24 +1138,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813245302}
   m_CullTransparentMesh: 1
---- !u!114 &1813245306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813245302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1267060d33f7b6a4aa65912f51cf4cfa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 1593760986}
-  lines:
-  - peepeepoo
-  - poopoopee
-  - XD
-  textspeed: 0.15
 --- !u!1 &2048146507
 GameObject:
   m_ObjectHideFlags: 0
