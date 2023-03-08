@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -128,8 +129,8 @@ public class PlayerMovement : MonoBehaviour
         if (other.CompareTag("Portal"))
         {
             Debug.Log("u just got hit L bozo");
-            n++;
-            transform.position += arr[n];
+            SceneManager.LoadScene("Shooting");
+            
         }
 
         if (other.CompareTag("shark"))
