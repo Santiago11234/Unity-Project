@@ -20,7 +20,7 @@ public class ShipMovement : MonoBehaviour
         {
             transform.Translate(0, 0, -91.7f - 100);
         }
-        transform.Translate(0, 0, 0.01f);
+        transform.Translate(0, 0, 0.04f);
     }
 }
 
