@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Axe : MonoBehaviour
+public class Axe2 : MonoBehaviour
 {
     [Header("Knockback")]
     public float knockbackForce = 500f;
@@ -18,7 +18,7 @@ public class Axe : MonoBehaviour
     void Update()
     {
         float angle = Mathf.Sin(Time.time * rotationSpeed) * maxAngle;
-        transform.rotation = Quaternion.Euler(180f ,0f , angle);
+        transform.rotation = Quaternion.Euler(0f ,180f , angle);
     }
 
     void OnTriggerEnter(Collider other)
