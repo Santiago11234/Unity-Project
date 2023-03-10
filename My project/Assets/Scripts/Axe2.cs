@@ -18,7 +18,7 @@ public class Axe2 : MonoBehaviour
     void Update()
     {
         float angle = Mathf.Sin(Time.time * rotationSpeed) * maxAngle;
-        transform.rotation = Quaternion.Euler(0f ,180f , angle);
+        
     }
 
     void OnTriggerEnter(Collider other)

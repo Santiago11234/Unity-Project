@@ -144,15 +144,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 486550, guid: a6f75ae2198bd1e47b95c317412b3ef3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.8
+      value: -16.077
       objectReference: {fileID: 0}
     - target: {fileID: 486550, guid: a6f75ae2198bd1e47b95c317412b3ef3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.848
+      value: 1.774
       objectReference: {fileID: 0}
     - target: {fileID: 486550, guid: a6f75ae2198bd1e47b95c317412b3ef3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.93
+      value: -3.159
       objectReference: {fileID: 0}
     - target: {fileID: 486550, guid: a6f75ae2198bd1e47b95c317412b3ef3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13820,10 +13820,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f880905e86542a2b028f4103d0caa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockbackForce: 2000
+  knockbackForce: 10
   knockbackDuration: 0.5
   maxAngle: 85
-  rotationSpeed: 1
+  rotationSpeed: 5
 --- !u!65 &929405045
 BoxCollider:
   m_ObjectHideFlags: 0
