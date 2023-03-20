@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Movement")]
     public float moveSpeed;
-
+    public Vector3 startPos;
     public float groundDrag;
 
 
@@ -48,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
         arr[1] = new Vector3(10,10,10);
         n =0;
 
-        transform.position = new Vector3(-38.41807f,5.566f, -45.97005f);
+        transform.position = startPos;
         
     }
 
@@ -140,7 +140,7 @@ public class PlayerMovement : MonoBehaviour
         {
             
             Debug.Log("You Died");
-            transform.position = new Vector3(-38.41807f,5.566f, -45.97005f);
+            transform.position = startPos;
         }
     }
 

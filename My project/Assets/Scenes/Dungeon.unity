@@ -16547,6 +16547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
+  startPos: {x: 3.9488, y: 8.027, z: 15.88}
   groundDrag: 3
   jumpForce: 12
   jumpCooldown: 0.25
