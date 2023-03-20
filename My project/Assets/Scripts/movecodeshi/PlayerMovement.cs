@@ -47,6 +47,9 @@ public class PlayerMovement : MonoBehaviour
         arr[0] = new Vector3(0,0,0);
         arr[1] = new Vector3(10,10,10);
         n =0;
+
+        transform.position = new Vector3(-38.41807f,5.566f, -45.97005f);
+        
     }
 
     private void MyInput()
@@ -129,7 +132,7 @@ public class PlayerMovement : MonoBehaviour
         if (other.CompareTag("Portal"))
         {
             Debug.Log("u just got hit L bozo");
-            SceneManager.LoadScene("Shooting");
+            SceneManager.LoadScene("Dungeon");
             
         }
 
@@ -137,6 +140,7 @@ public class PlayerMovement : MonoBehaviour
         {
             
             Debug.Log("You Died");
+            transform.position = new Vector3(-38.41807f,5.566f, -45.97005f);
         }
     }
 
