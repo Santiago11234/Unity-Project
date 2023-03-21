@@ -8,6 +8,8 @@ TagManager:
   - Axe
   - Portal
   - DialogueTrigger
+  - shark
+  - ocean
   layers:
   - Default
   - TransparentFX
