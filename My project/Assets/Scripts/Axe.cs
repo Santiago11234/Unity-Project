@@ -43,6 +43,8 @@ public class Axe : MonoBehaviour
 
             StartCoroutine(KnockbackCoroutine(playerMovement));
             
+            playerRb.position = new Vector3(3.9488f,8.027f,15.88f);
+            
         }
     }
 

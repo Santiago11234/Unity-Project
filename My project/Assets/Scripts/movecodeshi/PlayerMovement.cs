@@ -166,6 +166,12 @@ public class PlayerMovement : MonoBehaviour
             Debug.Log("You Died");
             transform.position = startPos;
         }
+        if (other.CompareTag("ocean"))
+        {
+            
+            Debug.Log("You Died");
+            transform.position = startPos;
+        }
     }
 
 }
