@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
 
+
+
+    public bool isMoving = false;
+
     [Header("Movement")]
     public float moveSpeed;
     public Vector3 startPos;
@@ -38,7 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 moveDirection;
 
-    Rigidbody rb;
+    public Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,17 +56,35 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-    private void MyInput()
+    /*function moveCheck()
+    {
+        var p1 = transform.position;
+        yield WaitForSeconds(0.5);
+        var p2 = transform.position;
+
+        IsMoved = (p1 != p2);
+    }
+    */
+
+        private void MyInput()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
-
-        if(Input.GetKey(jumpKey) && readyToJump && grounded)
+        if (transform.hasChanged)
+        {
+            isMoving = true;
+        }
+        else
+        {
+            isMoving = false;
+        }
+        /*if(Input.GetKey(jumpKey) && readyToJump && grounded)
         {
             readyToJump = false;
             Jump();
             Invoke(nameof(ResetJump), jumpCooldown);
         }
+        */
     }
 
     private void MovePlayer()
@@ -85,6 +107,8 @@ public class PlayerMovement : MonoBehaviour
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
         MyInput();
+
+        //moveCheck();
 
         SpeedControl();
 
