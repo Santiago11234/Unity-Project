@@ -57,7 +57,7 @@ public class mainMenuCode : MonoBehaviour
    }
 
    public void SetQuality(int qualityLevl) {
-    quality = qualityLevl;
+    quality = qualityLevl*2;
    }
 
    public void GraphicsApply() {
