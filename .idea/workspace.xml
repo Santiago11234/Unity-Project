@@ -5,7 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0215ae2-f34a-4906-a548-9cbfc9fc35f1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/PlayerPrefsEditor/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/PlayerPrefsEditor/Editor/Mac.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/PlayerPrefsEditor/Editor/Mac/Plist.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/PlayerPrefsEditor/Editor/Mac/Plist.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/PlayerPrefsEditor/Editor/PlayerPrefsEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/PlayerPrefsEditor/Editor/PlayerPrefsEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/PlayerPrefsEditor/PlayerPrefsUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/PlayerPrefsEditor/PlayerPrefsUtility.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/PlayerPrefsEditor/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/PlayerPrefsEditor/README.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/PlayerPrefsEditor/SimpleEncryption.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/PlayerPrefsEditor/SimpleEncryption.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scenes/Tutorial 0.0.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scenes/Tutorial 0.0.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scenes/wood back.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scenes/wood back.jpeg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scripts/Footstep stuff.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scripts/Footstep stuff.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scripts/Footsteps.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Scripts/Footsteps.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Sound Effets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Sound Effets/Footstep dungeon.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Sound Effets/Footstep dungeon.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Sound Effets/footsteps-on-wooden-floor-6803.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Sound Effets/footsteps-on-wooden-floor-6803.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Sound Effets/land2-43790.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Sound Effets/land2-43790.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Sound Effets/mixkit-game-treasure-coin-2038.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Sound Effets/mixkit-game-treasure-coin-2038.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Sound Effets/sand_step-87182.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/Sound Effets/sand_step-87182.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/bg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/bg.jpeg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/skull 1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My project/Assets/skull 1.jpeg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Models/BrokenVector/LowPolyDungeon/Prefabs/Lamps/Candlestick_Wall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Models/BrokenVector/LowPolyDungeon/Prefabs/Lamps/Candlestick_Wall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Models/BrokenVector/LowPolyDungeon/Prefabs/Lamps/Torch_Wall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Models/BrokenVector/LowPolyDungeon/Prefabs/Lamps/Torch_Wall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Pirate Music Pack 2.meta" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/PlayerPrefsEditor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Scenes/Dungeon.unity" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Scenes/Dungeon.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Scenes/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Scenes/Main Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Scenes/Start Screen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Scenes/Start Screen.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Scripts/Axe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Scripts/Axe.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Scripts/CoinStuff.cs" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Scripts/CoinStuff.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Scripts/ShipMovement/ShipMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Scripts/ShipMovement/ShipMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Scripts/ShipMovement/ShipMovement2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Scripts/ShipMovement/ShipMovement2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Scripts/mainMenuCode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Scripts/mainMenuCode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Scripts/movecodeshi/DungeonJump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Scripts/movecodeshi/DungeonJump.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Scripts/movecodeshi/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Scripts/movecodeshi/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/Scripts/movecodeshi/jump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/Scripts/movecodeshi/jump.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/My project/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/My project/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/My project/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/My project/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/My project/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/My project/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My project/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/My project/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
