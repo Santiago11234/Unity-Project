@@ -10,6 +10,8 @@ TagManager:
   - DialogueTrigger
   - shark
   - ocean
+  - OkButtonTest
+  - EndWall
   layers:
   - Default
   - TransparentFX

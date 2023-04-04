@@ -18,7 +18,7 @@ public class ShipMovement : MonoBehaviour
     {
         if (transform.position.x < -100)
         {
-            transform.Translate(0, 0, -91.7f - 100);
+            transform.Translate(0, 0, -91.7f - 100 * Time.deltaTime);
         }
         transform.Translate(0, 0, 0.02f);
     }

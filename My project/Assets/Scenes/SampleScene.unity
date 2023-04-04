@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.120731406, g: 0.18645725, b: 0.33538952, a: 1}
+  m_IndirectSpecularColor: {r: 0.120751046, g: 0.18641728, b: 0.3351589, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3469,6 +3469,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   amtOfCoins: 0
   text: {fileID: 0}
+  inDungeon: 0
+  amtNeeded: 5
+  g: {fileID: 0}
 --- !u!136 &499934339
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16501,15 +16504,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 1d088877e70e10849931f7296df42864, type: 3}
       propertyPath: m_LocalScale.x
-      value: 9.662273
+      value: 29.03419
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 1d088877e70e10849931f7296df42864, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10.364453
+      value: 11.813535
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 1d088877e70e10849931f7296df42864, type: 3}
       propertyPath: m_LocalScale.z
-      value: 12.6431465
+      value: 55.456345
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 1d088877e70e10849931f7296df42864, type: 3}
       propertyPath: m_LocalPosition.x

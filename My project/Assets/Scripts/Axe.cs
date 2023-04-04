@@ -15,6 +15,7 @@ public class Axe : MonoBehaviour
     [Header("Rotation")]
     public float maxAngle = 60;
     public float rotationSpeed = 1;
+    public Boolean leftLeft = false;
 
     void Update()
     {
