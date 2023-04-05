@@ -1,14 +1,15 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CoinStuff : MonoBehaviour
 {
     public int amtOfCoins;
     public TMP_Text text = null;
-    public bool inDungeon = false;
+    public bool inDungeon;
     public int amtNeeded = 5;
     public GameObject g = null;
     bool end  = false;
@@ -19,7 +20,7 @@ public class CoinStuff : MonoBehaviour
     
         
         if(inDungeon) {
-            amtNeeded = 10;
+            amtNeeded = 5;
             amtOfCoins = 0;
         }
     }
@@ -32,10 +33,14 @@ public class CoinStuff : MonoBehaviour
 
         if(g != null && g.transform.position.x < 15.634f) {
             g.transform.Translate (5 * Time.deltaTime, 0, 0);
-            text.text = "The End";
+            text.text = "The End. Press R to replay";
             end = true;
         }
-         
+
+        if(end) {
+            if(Input.GetKeyDown(KeyCode.R))
+                 SceneManager.LoadScene("Start Screen");
+        }
     }
 
     void OnCollisionEnter(Collision other) {
@@ -48,15 +53,17 @@ public class CoinStuff : MonoBehaviour
             for(int i = 0; i < 1000000; i++) {
 
             }
+
             amtOfCoins++;
+            // if(!inDungeon)
+            //     amtOfCoins--;
 
         }
 
-        if(inDungeon && amtOfCoins == 10 && other.gameObject.tag == "OkButtonTest") {
+        if(inDungeon && amtOfCoins == 5 && other.gameObject.tag == "OkButtonTest") {
 
             g = GameObject.FindGameObjectWithTag("EndWall");
 
          }
     }
 }
-*/
