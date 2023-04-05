@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.120751046, g: 0.18641728, b: 0.3351589, a: 1}
+  m_IndirectSpecularColor: {r: 0.12076032, g: 0.18643649, b: 0.3352496, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -433,6 +433,24 @@ RectTransform:
   m_AnchoredPosition: {x: -4.9, y: 139.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &50900312 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8117149353268099336, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
+  m_PrefabInstance: {fileID: 659274533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &50900314
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50900312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 50, y: 0.5038117, z: 50}
+  m_Center: {x: -0.000000033527613, y: 0.10449694, z: -0.000000059604645}
 --- !u!1001 &59239041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1241,7 +1259,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &124166190
 Transform:
   m_ObjectHideFlags: 0
@@ -1494,6 +1512,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175650981}
   m_CullTransparentMesh: 1
+--- !u!1 &175765177 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
+  m_PrefabInstance: {fileID: 1123389628}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &193847610 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: c04390190645df743a06dcf771b5bd07, type: 3}
@@ -1807,6 +1830,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
   m_PrefabInstance: {fileID: 1123389628}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &225677013
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175765177}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &258567341 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 682a85a61af54d74fa1d7c93e8f85e18, type: 3}
@@ -3390,6 +3426,7 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 0}
   orientation: {fileID: 1108515250}
   testing: 1
+  dungeon: 0
   rb: {fileID: 0}
 --- !u!54 &499934335
 Rigidbody:
@@ -3438,11 +3475,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be7c8564bcf44eb4a98c585fcbb18e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amtOfCoins: 0
-  text: {fileID: 1079998766}
-  inDungeon: 0
-  amtNeeded: 5
-  g: {fileID: 0}
 --- !u!136 &499934339
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4099,6 +4131,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2810317830309764963, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
       propertyPath: m_Name
       value: OCEAN (1)
@@ -4110,6 +4146,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
       propertyPath: m_TagString
       value: ocean
+      objectReference: {fileID: 0}
+    - target: {fileID: 853358137006275067, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3014001323828869900, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
       propertyPath: m_Layer
@@ -5462,7 +5502,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &838413361
 Transform:
   m_ObjectHideFlags: 0
@@ -5710,6 +5750,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &871561159 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8117149353268099336, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
+  m_PrefabInstance: {fileID: 1123389628}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &871561161
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871561159}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 50, y: 0.5038117, z: 50}
+  m_Center: {x: -0.000000033527613, y: 0.10449694, z: -0.000000059604645}
 --- !u!1 &874174829 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1646854296384910, guid: f855683b127eede4c9d170be2672ae27, type: 3}
@@ -7435,6 +7493,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2810317830309764963, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
       propertyPath: m_Name
       value: OCEAN
@@ -7446,6 +7508,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
       propertyPath: m_TagString
       value: ocean
+      objectReference: {fileID: 0}
+    - target: {fileID: 853358137006275067, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3014001323828869900, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
       propertyPath: m_Layer
@@ -8598,6 +8664,24 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8393699483690360033, guid: 7a704191943d6a644a9de8b770119077, type: 3}
+--- !u!1 &1260818137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3014001323828869900, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
+  m_PrefabInstance: {fileID: 659274533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1260818139
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260818137}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 50, y: 0.000008146034, z: 50}
+  m_Center: {x: -0.000000033527613, y: 0, z: -0.000000059604645}
 --- !u!4 &1269835111 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: fd1f7862df4312d479e3d813bb9088d8, type: 3}
@@ -8675,7 +8759,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1333562911
 Transform:
   m_ObjectHideFlags: 0
@@ -14664,6 +14748,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PirateCoin (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4458053231156967653, guid: eb8ccc3ff682b49439d6d96ece2f0f2e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb8ccc3ff682b49439d6d96ece2f0f2e, type: 3}
 --- !u!1 &1460980091 stripped
@@ -16859,6 +16947,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PirateCoin (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4458053231156967653, guid: eb8ccc3ff682b49439d6d96ece2f0f2e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb8ccc3ff682b49439d6d96ece2f0f2e, type: 3}
 --- !u!1 &1891796366
@@ -17254,6 +17346,24 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8393699483690360033, guid: 7a704191943d6a644a9de8b770119077, type: 3}
+--- !u!1 &1968631436 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3014001323828869900, guid: c8c97c5e6fffa9e4596aeabe219fe18f, type: 3}
+  m_PrefabInstance: {fileID: 1123389628}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1968631438
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968631436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 50, y: 0.000008146034, z: 50}
+  m_Center: {x: -0.000000033527613, y: 0, z: -0.000000059604645}
 --- !u!1001 &1969152004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17382,7 +17492,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1974322085
 Transform:
   m_ObjectHideFlags: 0
@@ -17632,6 +17742,10 @@ PrefabInstance:
     - target: {fileID: 4458053231156967653, guid: eb8ccc3ff682b49439d6d96ece2f0f2e, type: 3}
       propertyPath: m_Name
       value: PirateCoin
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458053231156967653, guid: eb8ccc3ff682b49439d6d96ece2f0f2e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb8ccc3ff682b49439d6d96ece2f0f2e, type: 3}
