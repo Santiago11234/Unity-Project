@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class ShipMovement2 : MonoBehaviour
 {
+
+    public bool special;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,11 +18,23 @@ public class ShipMovement2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x > 150)
-        {
-            transform.Translate(0, 0, -91.34f-150);
+
+        if(special) {
+            if (transform.position.x > 80)
+                {
+                    transform.Translate(0, 0, -91.34f-50);
+                }
+            transform.Translate(0, 0, 4 * Time.deltaTime);
         }
-        transform.Translate(0, 0, 0.02f);
+
+        else {
+
+            if (transform.position.x > 150)
+            {
+                transform.Translate(0, 0, -91.34f-150);
+            }
+            transform.Translate(0, 0, 0.02f);
+        }
     }
 }
 

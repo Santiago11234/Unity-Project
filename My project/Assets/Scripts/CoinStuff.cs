@@ -11,12 +11,12 @@ public class CoinStuff : MonoBehaviour
     public bool inDungeon = false;
     public int amtNeeded = 5;
     public GameObject g = null;
+    bool end  = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        amtOfCoins = 10;
-        text.text = "Coins: 0/5";
+    
         
         if(inDungeon) {
             amtNeeded = 10;
@@ -27,20 +27,28 @@ public class CoinStuff : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         text.text = "Coins: " + amtOfCoins + " / " + amtNeeded;
+        if(!end) 
+            text.text = "Coins: " + amtOfCoins + " / " + amtNeeded;
+
         if(g != null && g.transform.position.x < 15.634f) {
             g.transform.Translate (5 * Time.deltaTime, 0, 0);
+            text.text = "The End";
+            end = true;
         }
          
     }
 
     void OnCollisionEnter(Collision other) {
         if(other.gameObject.tag == "coin"){
-            amtOfCoins++;
+            
             Destroy(other.gameObject);
             // if(other.gameObject.name == "PirateCoinRock") {
             //     amtOfCoins--;
             // }
+            for(int i = 0; i < 1000000; i++) {
+
+            }
+            amtOfCoins++;
 
         }
 
