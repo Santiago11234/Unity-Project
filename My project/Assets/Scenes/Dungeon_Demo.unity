@@ -14630,6 +14630,10 @@ PrefabInstance:
       value: Player (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8555296480750118041, guid: caaf108dab8144e43a992db9b20ecab2, type: 3}
+      propertyPath: dungeon
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8555296480750118041, guid: caaf108dab8144e43a992db9b20ecab2, type: 3}
       propertyPath: startPos.x
       value: 4.42
       objectReference: {fileID: 0}
@@ -14643,11 +14647,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8555296480750118047, guid: caaf108dab8144e43a992db9b20ecab2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.42
+      value: 2.181
       objectReference: {fileID: 0}
     - target: {fileID: 8555296480750118047, guid: caaf108dab8144e43a992db9b20ecab2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8
+      value: 3.977
       objectReference: {fileID: 0}
     - target: {fileID: 8555296480750118047, guid: caaf108dab8144e43a992db9b20ecab2, type: 3}
       propertyPath: m_LocalPosition.z
