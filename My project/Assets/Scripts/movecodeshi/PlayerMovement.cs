@@ -172,6 +172,13 @@ public class PlayerMovement : MonoBehaviour
             
         }
 
+        if (other.CompareTag("Portal1"))
+        {
+            Debug.Log("u just got hit L bozo");
+            SceneManager.LoadScene("SampleScene");
+
+        }
+
         if (other.CompareTag("shark"))
         {
             
