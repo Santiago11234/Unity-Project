@@ -41,7 +41,8 @@ public class PlayerMovement : MonoBehaviour
     float verticalInput;
 
     Vector3 moveDirection;
-
+    public bool testing;
+    public bool dungeon;
     public Rigidbody rb;
     // Start is called before the first frame update
     void Start()
@@ -51,9 +52,13 @@ public class PlayerMovement : MonoBehaviour
         arr[0] = new Vector3(0,0,0);
         arr[1] = new Vector3(10,10,10);
         n =0;
+        if(testing)
+            startPos = new Vector3(52,10,203);
+        if(dungeon)
+            startPos = new Vector3(3,7,16.4f);
+
 
         transform.position = startPos;
-        
     }
 
     /*function moveCheck()
@@ -151,12 +156,19 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
+    void OnCollisionStay(Collision other) {
+        if (other.gameObject.CompareTag("newStart"))
+        {
+            Debug.Log("You Died");
+            startPos = new Vector3(12, 4, 65);
+        }
+    }
      void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Portal"))
         {
             Debug.Log("u just got hit L bozo");
-            SceneManager.LoadScene("Dungeon");
+            SceneManager.LoadScene("Dungeon_Demo");
             
         }
 
@@ -168,10 +180,10 @@ public class PlayerMovement : MonoBehaviour
         }
         if (other.CompareTag("ocean"))
         {
-            
             Debug.Log("You Died");
             transform.position = startPos;
         }
+        
     }
 
 }

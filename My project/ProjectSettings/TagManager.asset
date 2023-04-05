@@ -12,6 +12,7 @@ TagManager:
   - ocean
   - OkButtonTest
   - EndWall
+  - newStart
   layers:
   - Default
   - TransparentFX
