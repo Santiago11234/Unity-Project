@@ -52,8 +52,7 @@ public class PlayerMovement : MonoBehaviour
         arr[0] = new Vector3(0,0,0);
         arr[1] = new Vector3(10,10,10);
         n =0;
-        if(testing)
-            startPos = new Vector3(52,10,203);
+        
         if(dungeon)
             startPos = new Vector3(3,7,16.4f);
 
