@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 //using Unity.Mathematics;
-using UnityEditor.SearchService;
 using UnityEngine.SceneManagement;
 
 public class durlog : MonoBehaviour
